@@ -6,12 +6,17 @@
 `ssh root@...`
 
 ### Faire les mises à jour et les améliorations
-`apt update`
+```bash
+apt update`
 
 `apt upgrade`
+```
 
 ### Installer le server maria-db
-
-`apt install -y mariadb-server`
-
-`ss -tulpn` pour voir le port ouvert (3306)
+```bash
+apt install -y mariadb-server
+```
+Pour voir le port ouvert (3306)
+```bash
+ss -tulpn
+```
